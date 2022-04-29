@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashPadding">50dp</dimen>
+    <dimen name="ivSplashHeight">350dp</dimen>
+    <dimen name="splashTextSize">50sp</dimen>
+    <dimen name="nhWidth">150dp</dimen>
+    <dimen name="nhHeight">100dp</dimen>
+    <dimen name="nhMarginTop">25dp</dimen>
+    <dimen name="nvWidth">162dp</dimen>
+    <dimen name="nvHeight">285dp</dimen>
+    <dimen name="paddingAbout">20dp</dimen>
+    <dimen name="aboutTxtSize">16sp</dimen>
+    <dimen name="paddingSelection">30dp</dimen>
+    <dimen name="fragSelectMarginTop">20dp</dimen>
+    <dimen name="solMarginTop">50dp</dimen>
+    <dimen name="fragSelectTxtSize">20sp</dimen>
+    <dimen name="ivRoverHeight">200dp</dimen>
+    <dimen name="paddingItems">10dp</dimen>
+    <dimen name="ivItemSize">60dp</dimen>
+    <dimen name="tvItemTxtSize">17sp</dimen>
+    <dimen name="marginStartCamSen">20dp</dimen>
+    <dimen name="marginStartTvItem">5dp</dimen>
+    <dimen name="cornerRadius">10dp</dimen>
+    <dimen name="ipMarginTop">5dp</dimen>
+    <dimen name="roverNameMarginEnd">8dp</dimen>
+    <dimen name="ipTxtMarginEnd">4dp</dimen>
+    <dimen name="ipInfoMarginTop">10dp</dimen>
+    <dimen name="ipTextSize">16sp</dimen>
+    <dimen name="roverNameTxtSize">20sp</dimen>
+    <dimen name="ivItemHeight">410dp</dimen>
+    <dimen name="ipTxtRowMarginTop">4dp</dimen>
+</resources>

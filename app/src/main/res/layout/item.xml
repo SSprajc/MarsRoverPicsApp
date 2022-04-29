@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/black"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/cornerRadius">
+
+    <LinearLayout
+        android:padding="@dimen/paddingItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivItem"
+            android:layout_width="@dimen/ivItemSize"
+            android:layout_height="@dimen/ivItemSize"
+            tools:src="@drawable/nasa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ivItemSize"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/tvItemTxtSize"
+            android:layout_marginStart="@dimen/marginStartCamSen"
+            android:text="@string/camera_sensor" />
+        <TextView
+            android:id="@+id/tvItem"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ivItemSize"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/tvItemTxtSize"
+            android:layout_marginStart="@dimen/marginStartTvItem"
+            tools:text="Navigational camera" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

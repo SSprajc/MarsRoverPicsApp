@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Nasa</string>
+    <string name="please_wait">Please wait</string>
+    <string name="no_internet">No internet!</string>
+    <string name="about">About</string>
+    <string name="items">Items</string>
+    <string name="exit">Exit</string>
+    <string name="really">Really exit app?</string>
+    <string name="cancel">Cancel</string>
+    <string name="aboutTxt">Sorry to disappoint you, but pictures showed in this app are made in Hollywood studio.. \n People wake up! The Earth is flat! \n However there is a slight possibility that it is round, but it\'s hollow inside and that\'s where humanoid reptiles live. \n On the other hand, we must be sceptical about everything so there is no denying that there is a small chance that the Earth is round and filled with rocky stuff, implying that scientific evidence are legit; implying that there is a possibility that NASA is telling the truth; implying that those pictures were indeed taken on Mars! \n Although, there is \'lying\' in \'implying\'... \n -App made by Sandro-</string>
+    <string name="selection">Selection</string>
+    <string name="sol">Sol:</string>
+    <string name="solHintRange">1 - 2208</string>
+    <string name="rover">Rover:</string>
+    <string name="go">go</string>
+    <string name="delete">Delete</string>
+    <string name="sure">Are you sure to delete?</string>
+    <string name="taken_by">Taken by</string>
+    <string name="landed_on_mars">Landing on Mars:</string>
+    <string name="current_mission_status">Current mission status:</string>
+    <string name="date_the_picture_was_taken">Date the picture was taken:</string>
+    <string name="camera_sensor">Camera sensor:</string>
+    <string name="error">Input error</string>
+    <string name="values">Please input sol in range 1 - 2208, and choose rover</string>
+    <string-array name="rovers">
+        <item>curiosity</item>
+        <item>opportunity</item>
+        <item>spirit</item>
+    </string-array>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingItems">
+
+    <ImageView
+        android:id="@+id/ivItem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ivItemHeight"
+        tools:src="@drawable/flat_about" />
+    <LinearLayout
+        android:layout_marginTop="@dimen/ipInfoMarginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_marginEnd="@dimen/ipTxtMarginEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ipTextSize"
+            android:text="@string/taken_by"/>
+        <TextView
+            android:id="@+id/tvRoverName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/roverNameTxtSize"
+            tools:text="Curiosity"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_marginEnd="@dimen/ipTxtMarginEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ipTextSize"
+            android:text="@string/landed_on_mars"/>
+        <TextView
+            android:id="@+id/tvLandingDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ipTextSize"
+            android:textStyle="bold"
+            tools:text="2004-01-04"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/ipTxtRowMarginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_marginEnd="@dimen/ipTxtMarginEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ipTextSize"
+            android:text="@string/current_mission_status"/>
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ipTextSize"
+            android:textStyle="bold"
+            tools:text="active"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/ipTxtRowMarginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_marginEnd="@dimen/ipTxtMarginEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ipTextSize"
+            android:text="@string/date_the_picture_was_taken"/>
+        <TextView
+            android:id="@+id/tvPictureDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ipTextSize"
+            android:textStyle="bold"
+            tools:text="2004-01-06"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/ipTxtRowMarginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_marginEnd="@dimen/ipTxtMarginEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ipTextSize"
+            android:text="@string/camera_sensor"/>
+        <TextView
+            android:id="@+id/tvCameraSensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ipTextSize"
+            tools:text="Navigational camera"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
